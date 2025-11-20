@@ -1,0 +1,103 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Data files (grandes)
+*.csv
+*.xlsx
+*.xls
+*.dta
+*.sav
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+
+# Excepciones: mantener CSVs pequeños de ejemplo
+!data/README.md
+!data/ejemplo_*.csv
+
+# Shapefiles (pueden ser grandes)
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.sbn
+*.sbx
+
+# Plots generados (opcional - descomentar si quieres versionar plots)
+# plots/*.png
+# plots/*.jpg
+# plots/*.pdf
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+*~
+
+# Logs
+*.log
+
+# Sistema operativo
+Thumbs.db
+
+# Archivos de configuración local
+.env
+config_local.py
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# Pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
